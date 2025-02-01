@@ -1,7 +1,8 @@
 const { Router } = require('express');
 const { validationResult } = require('express-validator');
 const UserToday29 = require('../models/UserToday29'); // Arreglar la ruta
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
+
 
 const router = Router(); // Inicializar el router
 
