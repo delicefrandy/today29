@@ -11,7 +11,7 @@ const updateUserRoutes = require('./routes/updateUsers');
 dotenv.config(); // Cargar variables de entorno
 
 const app = express();
-const port = process.env.PORT || 6015;
+const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
